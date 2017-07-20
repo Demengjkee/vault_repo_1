@@ -1,4 +1,3 @@
-@NonCPS
-def call(obj) {
+def call(String obj) {
     return obj + obj    
 }
