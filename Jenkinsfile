@@ -1,5 +1,3 @@
-import cih.Test
-
 node {
 def test = load("cih/Test.groovy")
 def str = test("str");
