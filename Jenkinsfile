@@ -1,8 +1,8 @@
 node {
-sh 'ls -la'
-def test = load("cih/Test.groovy")
-def str = test("str");
-sh '${str}'
+    git 'git@github.com:Demengjkee/vault_repo_1.git'
+    def test = load("cih/Test.groovy")
+    def str = test("str");
+    sh '${str}'
 /*
   def vaultIp = "34.250.137.247"
   def vaultAddr = "http://${vaultIp}:8200"
