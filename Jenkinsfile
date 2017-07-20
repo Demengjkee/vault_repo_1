@@ -1,4 +1,4 @@
-import cih.*
+import cih.Test
 
 node {
 
