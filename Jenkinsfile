@@ -1,8 +1,8 @@
 import cih.Test
 
 node {
-
-def str = Test.testRun("str");
+def test = load("cih/Test.groovy")
+def str = test("str");
 sh '${str}'
 /*
   def vaultIp = "34.250.137.247"
