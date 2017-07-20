@@ -2,6 +2,7 @@ node {
     git 'git@github.com:Demengjkee/vault_repo_1.git'
     sh 'ls -la; ls -la cih/'
     def test = load("cih/Test.groovy")
+    sh '${test}'
     def str = test("str");
     sh '${str}'
 /*
