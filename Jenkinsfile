@@ -1,4 +1,5 @@
 node {
+sh 'ls -la'
 def test = load("cih/Test.groovy")
 def str = test("str");
 sh '${str}'
