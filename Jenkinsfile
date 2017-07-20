@@ -1,8 +1,8 @@
-import cih
+import cih.*
 
 node {
 
-def str = testRun("str");
+def str = Test.testRun("str");
 sh '${str}'
 /*
   def vaultIp = "34.250.137.247"
