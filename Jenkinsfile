@@ -1,4 +1,10 @@
+import cih
+
 node {
+
+def str = testRun("str");
+sh '${str}'
+/*
   def vaultIp = "34.250.137.247"
   def vaultAddr = "http://${vaultIp}:8200"
   withCredentials([string(credentialsId: 'GITHUB_TOKEN', variable: 'TOKEN')]) {
@@ -9,4 +15,5 @@ node {
        vault read secret/sp5/password;"              
      """
   }
+*/
 }
